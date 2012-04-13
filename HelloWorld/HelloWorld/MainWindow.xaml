@@ -1,0 +1,19 @@
+﻿<Window x:Class="LWisteria.StudiesOfSlimDX.HelloWorld.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:interop="clr-namespace:System.Windows.Interop;assembly=PresentationCore"
+	
+	WindowStartupLocation="CenterScreen"
+	Title="HelloWorld @ Studies of SlimDX"
+		
+	Width="800"
+	Height="600"
+	>
+
+    <Image>
+        <Image.Source>
+            <interop:D3DImage x:Name="directXImage">
+            </interop:D3DImage>
+        </Image.Source>
+    </Image>
+</Window>
